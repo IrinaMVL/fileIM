@@ -2,5 +2,6 @@
 # result = bin(a)
 # print(result)
 
-a = 5
-def bin():
+def bin_to_binary(a):
+    b = 5
+    
