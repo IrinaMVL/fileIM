@@ -4,4 +4,4 @@
 
 def bin_to_binary(a):
     b = 5
-    
+    for i in a:
