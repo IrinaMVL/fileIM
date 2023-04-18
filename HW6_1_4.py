@@ -11,5 +11,5 @@
 # print(filter1)
 
 text = [1, 2, 3, 'a', 'b', 'c', {'age': 32}]
-res = text(filter(lambda x: (x isinstance(x, str), text)))
+res = list(map(lambda x: x == str, text))
 print(res)
