@@ -9,6 +9,3 @@ def decimal_to_binary(decimal: int) -> str:
         decimal //= 2
     binary = f'{decimal}' + binary
     return binary
-
-def binary_to_decimal(binary: str) -> int:
-    binary =
