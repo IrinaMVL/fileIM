@@ -1,16 +1,17 @@
 class Car:
 
-    def __init__(self, color, count_passenger_seats, is_baby_seat, is_busy):
-        self.color: str = 'blue'
-        self.count_passenger_seats: int = 4
-        self.is_baby_seat = None
+    def __init__(self, color, count_passenger_seats, is_baby_seat):
+        self.color: str = color
+        self.count_passenger_seats: int = count_passenger_seats
+        self.is_baby_seat = is_baby_seat
         self.is_busy = False
 
     def __str__(self):
-        return f""
+        return self.color
 
 
-Toyota = Car('Toyota', 'blue', 4, None)
+Toyota = Car('blue', 4, 1)
 print(Toyota)
+
 
 
