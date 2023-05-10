@@ -7,11 +7,8 @@ class Car:
         self.is_busy = False
 
     def __str__(self):
-        return self.color
+        return f'Car color={self.color}, passenger_seats={self.count_passenger_seats}'
 
 
 Toyota = Car('blue', 4, 1)
 print(Toyota)
-
-
-
