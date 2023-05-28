@@ -1,6 +1,6 @@
 from aiohttp import ClientSession
 from ujson import dumps
-
+import asyncio
 
 async def main():
     async with ClientSession(
@@ -8,5 +8,9 @@ async def main():
         json_serialize=dumps
     ) as session:
         response = await session.get(
-            url=
+            url=api/address/1wiz18xYmhRX6xStj2b9t1rwWX4GKUgpv
         )
+        print(response)
+
+
+asyncio.run(main())
